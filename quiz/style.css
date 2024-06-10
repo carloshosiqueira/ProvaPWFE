@@ -10,16 +10,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #333; /* Cinza escuro */
-    color: #fff; /* Branco */
+    background-color: #333;
+    color: #fff;
     text-align: center;
 }
 
 header {
-    position: fixed; /* Define a posição fixa */
-    top: 0; /* Alinha o header ao topo */
-    width: 100%; /* Define a largura total */
-    z-index: 1000; /* Garante que o header fique acima de outros elementos */
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: #222;
     padding: 10px 0;
 }
@@ -79,8 +78,8 @@ h2 {
 }
 
 .content .answers .answer {
-    background-color: #4a98f7; /* Azul */
-    color: #fff; /* Branco */
+    background-color: #4a98f7;
+    color: #fff;
     padding: 10px 20px;
     border-radius: 8px;
     margin: 10px;
@@ -89,7 +88,7 @@ h2 {
 }
 
 .content .answers .answer:hover {
-    background-color: #3578c4; /* Azul mais escuro */
+    background-color: #3578c4;
 }
 
 .finish {
@@ -102,8 +101,8 @@ h2 {
 }
 
 .finish button {
-    background-color: #4a98f7; /* Azul */
-    color: #fff; /* Branco */
+    background-color: #4a98f7;
+    color: #fff;
     padding: 10px 20px;
     border-radius: 8px;
     border: none;
@@ -112,5 +111,5 @@ h2 {
 }
 
 .finish button:hover {
-    background-color: #3578c4; /* Azul mais escuro */
+    background-color: #3578c4;
 }
